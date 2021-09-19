@@ -12,7 +12,7 @@ main{
   background: #252525;
   border-radius: 100%;
   display: grid;
-  /* grid-gap: 0.5rem; */
+  /* grid-gap: 1rem; */
   grid-template-areas: 'yellow red' 'green blue';
   height: 90vh;
   margin: auto;
@@ -24,21 +24,49 @@ main{
   background: yellow;
   border: 0.5rem solid #252525;
   border-top-left-radius: 100%;
+  filter:brightness(0.6);
 }
 
 .red{
   background: red;
   border: 0.5rem solid #252525;
   border-top-right-radius: 100%;
+  filter:brightness(0.6);
 }
 
 .green{
   background: green;
   border: 0.5rem solid #252525;
   border-bottom-left-radius: 100%;
+  filter:brightness(0.6);
 }
 
 .blue{
+  background: blue;
+  border: 0.5rem solid #252525;
+  border-bottom-right-radius: 100%;
+  filter:brightness(0.6);
+}
+
+.yellow-selected{
+  background: yellow;
+  border: 0.5rem solid #252525;
+  border-top-left-radius: 100%;
+}
+
+.red-selected{
+  background: red;
+  border: 0.5rem solid #252525;
+  border-top-right-radius: 100%;
+}
+
+.green-selected{
+  background: green;
+  border: 0.5rem solid #252525;
+  border-bottom-left-radius: 100%;
+}
+
+.blue-selected{
   background: blue;
   border: 0.5rem solid #252525;
   border-bottom-right-radius: 100%;
