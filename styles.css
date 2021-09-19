@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+}
+
+main{
+  background: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.genius{
+  background: #252525;
+  border-radius: 100%;
+  display: grid;
+  /* grid-gap: 0.5rem; */
+  grid-template-areas: 'yellow red' 'green blue';
+  height: 90vh;
+  margin: auto;
+  transform: translateY(5vh);
+  width: 90vh;
+}
+
+.yellow{
+  background: yellow;
+  border: 0.5rem solid #252525;
+  border-top-left-radius: 100%;
+}
+
+.red{
+  background: red;
+  border: 0.5rem solid #252525;
+  border-top-right-radius: 100%;
+}
+
+.green{
+  background: green;
+  border: 0.5rem solid #252525;
+  border-bottom-left-radius: 100%;
+}
+
+.blue{
+  background: blue;
+  border: 0.5rem solid #252525;
+  border-bottom-right-radius: 100%;
+}
