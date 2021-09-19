@@ -8,6 +8,41 @@ main{
   width: 100vw;
 }
 
+h2{
+  font-size: 3rem;
+}
+
+button{
+  background: #202020;
+  border: none;
+  border-radius: 3rem;
+  box-shadow: 1px 1px white;
+  height: 3rem;
+  margin: 2rem;
+  transition: 0.1s;
+}
+
+button:active{
+  background: #323232;
+  box-shadow: none;
+  color: black;
+  transform: translateY(2px)
+}
+
+.box{
+  background: #252525;
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  justify-content: center;
+  left: calc(50vw - 22.5vh);
+  position: absolute;
+  text-align: center;
+  top: calc(50vh - 22.5vh);
+  width: 45vh;
+  z-index: 3;
+}
+
 .genius{
   background: #252525;
   border-radius: 100%;
@@ -70,4 +105,8 @@ main{
   background: blue;
   border: 0.5rem solid #252525;
   border-bottom-right-radius: 100%;
+}
+
+.hidden{
+  display: none;
 }
