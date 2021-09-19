@@ -17,6 +17,7 @@ button{
   border: none;
   border-radius: 3rem;
   box-shadow: 1px 1px white;
+  font-size: 1rem;
   height: 3rem;
   margin: 2rem;
   transition: 0.1s;
@@ -31,6 +32,7 @@ button:active{
 
 .box{
   background: #252525;
+  border-radius: 1.2rem;
   display: flex;
   flex-direction: column;
   height: 45vh;
